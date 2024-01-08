@@ -88,14 +88,26 @@
   width: 80%;
   height: 458px;
 }
+.dolorsitamet{color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 20px;
+font-weight: 300;
+margin-left: 60px;
+}
 .wlcparty {
   font-family: Inter;
   font-size: 60px;
   font-weight: 800;
-  /* font-size: 1500; */
-  /* font-weight: 600; */
-  /* line-height: 88px; */
-  /* letter-spacing: 7px; */
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.join-now{
+  color: #FFFFFF;
+  margin-left: 100px;
+  margin-top: 30px;
+  background: none;
+  border: none;
 }
 
 .newyearparttwo {
@@ -125,6 +137,7 @@
   padding: 5px;
   font-size: 20px;
   font-weight: 700;
+  font-family: Inter;
 }
 .first {
   padding-top: 35px;
@@ -139,13 +152,14 @@
   margin: 30px;
   border: none;
   border-radius: 2px;
+  font-family: Inter;
 }
 
 /* section-5 */
 
 .main {
   margin: 50px 125px 50px 125px;
-  background-color: bisque;
+  /* background-color: bisque; */
   border: 2px solid red;
   border: none;
   padding: 20px;
@@ -167,7 +181,7 @@
 }
 .ellipse {
   width: 180px;
-  height: 180px;
+  height: auto;
   border: 8px solid #f00;
   border-radius: 50%;
   padding: 15px;
@@ -178,6 +192,7 @@
   font-family: Inter;
   font-size: 30px;
   font-weight: 600;
+  font-family: Inter;
 }
 .section6-img3 {
   width: 300px;
@@ -205,9 +220,7 @@
   /* width:400px; */
   /* height: 500px; */
 }
-.section-6img-discound {
-  /* display: flex; */
-}
+
 
 .section-6-backgroundimg {
   background-image: url(./resources/Rectangle\ 2.png);
@@ -218,7 +231,7 @@
 }
 
 .dolorsit {
-  color: rgba(7, 2, 17, 0.6);
+  color: rgba(7, 2, 17, 0.60);
   font-family: Inter;
   font-size: 20px;
   font-weight: 300;
@@ -252,7 +265,7 @@
 
 .section-7 {
   margin: 50px 125px 50px 125px;
-  background-color: bisque;
+  /* background-color: bisque; */
   /* border: 2px solid red; */
   border: none;
   height: 810px;
@@ -271,6 +284,11 @@
   width: 300px;
   /* height: 250px; */
   margin: 5px;
+  
+}
+.section-8img:hover{
+   background-color: blue;
+  
 }
 
 .section-8img-group {
@@ -293,9 +311,22 @@
   text-align: center;
 }
 .input {
+  margin-top: 30px;
   width: 350px;
-  height: 20px;
-  padding: 15px;
+  height: 45px;
+  border: none;
+  border-radius: 50px 0 0 50px;
+  
+}
+.Subscribe{
+  width: 100px;
+  height: 45px;
+  background-color: #ff0000;
+  border-radius: 0 50px 50px 0;
+  color: #fff;
+  border: none;
+  margin-left: -5px;
+
 }
 
 /* section-9 */
@@ -317,9 +348,6 @@ footer {
 .link {
   margin: auto;
   height: 60px;
-  border: 3px solid rgb(4, 122, 169);
-  border-left: none;
-  border-right: none;
   display: flex;
   justify-content: center;
   padding: 20px;
